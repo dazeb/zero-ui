@@ -121,13 +121,13 @@ docker pull dec0dos/zero-ui
 5. Run the containers
 
 ```sh
-docker-compose up -d --no-build
+docker compose up -d --no-build
 ```
 
 6. Check if everything is okay (`CTRL-C` to stop log preview)
 
 ```sh
-docker-compose logs -f
+docker compose logs -f
 ```
 
 7. Disable your firewall for the following ports: `80/tcp`, `443/tcp`, and `9993/udp`
@@ -209,7 +209,7 @@ _For screenshots, please refer to the [screenshots](docs/SCREENSHOTS.md) section
 To get the latest version, simply run
 
 ```sh
-docker-compose pull && docker-compose up -d --no-build
+docker compose pull && docker compose up -d --no-build
 ```
 
 in the folder where `docker-compose.yml` is located. Backups may not be necessary since most of your data is usually saved at the controller level, but it's still a good idea to consider them as a precautionary measure.
