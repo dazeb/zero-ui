@@ -41,6 +41,9 @@
 
 ---
 
+> [!IMPORTANT]
+> This project is no longer being actively maintained due to personal commitments. However, it is stable and currently does not need much active development. If you are looking for a well-maintained alternative, I recommend [ZTNet](https://ztnet.network/)  by [@sinamics](https://github.com/sinamics).
+
 ## About
 
 This project drew inspiration from [ztncui](https://github.com/key-networks/ztncui) and was developed to address the current limitations of self-hosted [network controllers](https://github.com/zerotier/ZeroTierOne/tree/master/controller). Some of the issues in [ztncui](https://github.com/key-networks/ztncui) cannot be resolved due to the core architecture of the project. ZeroUI aims to resolve these issues and introduces the following features:
